@@ -1,0 +1,730 @@
+01-02-2026 15:05:35 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+01-02-2026 15:05:46 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+01-02-2026 15:08:49 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports | META: {"error":"Plugin 'mysql_native_password' is not loaded"}
+01-02-2026 15:08:49 | ERROR | node:internal/process/task_queues:105 | Reports API failed | META: {"error":"Plugin 'mysql_native_password' is not loaded"}
+01-02-2026 15:08:49 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports | META: {"error":"Plugin 'mysql_native_password' is not loaded"}
+01-02-2026 15:10:53 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+01-02-2026 15:10:54 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+01-02-2026 15:11:02 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+01-02-2026 15:11:03 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+01-02-2026 15:11:51 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+01-02-2026 15:11:56 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+01-02-2026 15:11:59 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+01-02-2026 15:12:08 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+01-02-2026 15:12:09 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+01-02-2026 15:12:12 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+01-02-2026 15:12:14 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+01-02-2026 15:12:16 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+01-02-2026 15:12:29 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports | META: {"error":"Plugin 'mysql_native_password' is not loaded","code":"ER_PLUGIN_IS_NOT_LOADED","sqlMessage":"Plugin 'mysql_native_password' is not loaded"}
+01-02-2026 15:12:29 | ERROR | node:internal/process/task_queues:105 | Reports API failed | META: {"error":"Plugin 'mysql_native_password' is not loaded"}
+01-02-2026 15:12:29 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports | META: {"error":"Plugin 'mysql_native_password' is not loaded","code":"ER_PLUGIN_IS_NOT_LOADED","sqlMessage":"Plugin 'mysql_native_password' is not loaded"}
+01-02-2026 15:12:39 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+01-02-2026 15:12:42 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports | META: {"error":"Plugin 'mysql_native_password' is not loaded","code":"ER_PLUGIN_IS_NOT_LOADED","sqlMessage":"Plugin 'mysql_native_password' is not loaded"}
+01-02-2026 15:12:42 | ERROR | node:internal/process/task_queues:105 | Reports API failed | META: {"error":"Plugin 'mysql_native_password' is not loaded"}
+01-02-2026 15:12:42 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports | META: {"error":"Plugin 'mysql_native_password' is not loaded","code":"ER_PLUGIN_IS_NOT_LOADED","sqlMessage":"Plugin 'mysql_native_password' is not loaded"}
+01-02-2026 15:15:31 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+01-02-2026 15:15:43 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+01-02-2026 15:15:45 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+01-02-2026 15:15:46 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+01-02-2026 15:15:51 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+01-02-2026 15:15:57 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports | META: {"error":"Plugin 'mysql_native_password' is not loaded","code":"ER_PLUGIN_IS_NOT_LOADED","sqlMessage":"Plugin 'mysql_native_password' is not loaded"}
+01-02-2026 15:15:57 | ERROR | node:internal/process/task_queues:105 | Reports API failed | META: {"error":"Plugin 'mysql_native_password' is not loaded"}
+01-02-2026 15:15:57 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports | META: {"error":"Plugin 'mysql_native_password' is not loaded","code":"ER_PLUGIN_IS_NOT_LOADED","sqlMessage":"Plugin 'mysql_native_password' is not loaded"}
+01-02-2026 15:21:40 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+----------------------------------------
+01-02-2026 15:21:45 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+----------------------------------------
+01-02-2026 15:21:48 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 15:21:48 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 15:21:48 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 15:47:25 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+----------------------------------------
+01-02-2026 15:47:27 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 15:47:27 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 15:47:27 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 15:57:29 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 15:57:29 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 15:57:29 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 15:57:31 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 15:57:31 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 15:57:31 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 16:00:35 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 16:00:35 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 16:00:35 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 16:00:37 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 16:00:37 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 16:00:37 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 16:00:43 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+----------------------------------------
+01-02-2026 16:00:45 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 16:00:45 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 16:00:45 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 16:00:48 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 16:00:48 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 16:00:48 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 16:01:24 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+----------------------------------------
+01-02-2026 16:01:28 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 16:01:28 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 16:01:28 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 16:06:32 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+----------------------------------------
+01-02-2026 16:06:51 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports
+META:
+{
+  "error": "(conn:-1, no: 45028, SQLState: HY000) pool timeout: failed to retrieve a connection from pool after 10005ms\n    (pool connections: active=0 idle=0 limit=5)",
+  "code": "ER_GET_CONNECTION_TIMEOUT",
+  "sqlMessage": "pool timeout: failed to retrieve a connection from pool after 10005ms\n    (pool connections: active=0 idle=0 limit=5)"
+}
+----------------------------------------
+01-02-2026 16:06:51 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "(conn:-1, no: 45028, SQLState: HY000) pool timeout: failed to retrieve a connection from pool after 10004ms\n    (pool connections: active=0 idle=0 limit=5)",
+  "code": "ER_GET_CONNECTION_TIMEOUT",
+  "sqlMessage": "pool timeout: failed to retrieve a connection from pool after 10004ms\n    (pool connections: active=0 idle=0 limit=5)"
+}
+----------------------------------------
+01-02-2026 16:06:51 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "(conn:-1, no: 45028, SQLState: HY000) pool timeout: failed to retrieve a connection from pool after 10005ms\n    (pool connections: active=0 idle=0 limit=5)"
+}
+----------------------------------------
+01-02-2026 16:09:18 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports
+META:
+{
+  "error": "(conn:-1, no: 45028, SQLState: HY000) pool timeout: failed to retrieve a connection from pool after 10005ms\n    (pool connections: active=0 idle=0 limit=5)",
+  "code": "ER_GET_CONNECTION_TIMEOUT",
+  "sqlMessage": "pool timeout: failed to retrieve a connection from pool after 10005ms\n    (pool connections: active=0 idle=0 limit=5)"
+}
+----------------------------------------
+01-02-2026 16:09:18 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "(conn:-1, no: 45028, SQLState: HY000) pool timeout: failed to retrieve a connection from pool after 10005ms\n    (pool connections: active=0 idle=0 limit=5)",
+  "code": "ER_GET_CONNECTION_TIMEOUT",
+  "sqlMessage": "pool timeout: failed to retrieve a connection from pool after 10005ms\n    (pool connections: active=0 idle=0 limit=5)"
+}
+----------------------------------------
+01-02-2026 16:09:18 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "(conn:-1, no: 45028, SQLState: HY000) pool timeout: failed to retrieve a connection from pool after 10005ms\n    (pool connections: active=0 idle=0 limit=5)"
+}
+----------------------------------------
+01-02-2026 16:14:17 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports
+META:
+{
+  "error": "(conn:-1, no: 45028, SQLState: HY000) pool timeout: failed to retrieve a connection from pool after 10014ms\n    (pool connections: active=0 idle=0 limit=5)",
+  "code": "ER_GET_CONNECTION_TIMEOUT",
+  "sqlMessage": "pool timeout: failed to retrieve a connection from pool after 10014ms\n    (pool connections: active=0 idle=0 limit=5)"
+}
+----------------------------------------
+01-02-2026 16:14:17 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "(conn:-1, no: 45028, SQLState: HY000) pool timeout: failed to retrieve a connection from pool after 10014ms\n    (pool connections: active=0 idle=0 limit=5)",
+  "code": "ER_GET_CONNECTION_TIMEOUT",
+  "sqlMessage": "pool timeout: failed to retrieve a connection from pool after 10014ms\n    (pool connections: active=0 idle=0 limit=5)"
+}
+----------------------------------------
+01-02-2026 16:14:17 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "(conn:-1, no: 45028, SQLState: HY000) pool timeout: failed to retrieve a connection from pool after 10014ms\n    (pool connections: active=0 idle=0 limit=5)"
+}
+----------------------------------------
+01-02-2026 16:14:26 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+----------------------------------------
+01-02-2026 16:14:41 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports
+META:
+{
+  "error": "(conn:-1, no: 45028, SQLState: HY000) pool timeout: failed to retrieve a connection from pool after 10013ms\n    (pool connections: active=0 idle=0 limit=5)",
+  "code": "ER_GET_CONNECTION_TIMEOUT",
+  "sqlMessage": "pool timeout: failed to retrieve a connection from pool after 10013ms\n    (pool connections: active=0 idle=0 limit=5)"
+}
+----------------------------------------
+01-02-2026 16:14:41 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "(conn:-1, no: 45028, SQLState: HY000) pool timeout: failed to retrieve a connection from pool after 10013ms\n    (pool connections: active=0 idle=0 limit=5)",
+  "code": "ER_GET_CONNECTION_TIMEOUT",
+  "sqlMessage": "pool timeout: failed to retrieve a connection from pool after 10013ms\n    (pool connections: active=0 idle=0 limit=5)"
+}
+----------------------------------------
+01-02-2026 16:14:41 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "(conn:-1, no: 45028, SQLState: HY000) pool timeout: failed to retrieve a connection from pool after 10013ms\n    (pool connections: active=0 idle=0 limit=5)"
+}
+----------------------------------------
+01-02-2026 16:29:30 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+----------------------------------------
+01-02-2026 16:29:45 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports
+META:
+{
+  "error": "(conn:-1, no: 45028, SQLState: HY000) pool timeout: failed to retrieve a connection from pool after 10010ms\n    (pool connections: active=0 idle=0 limit=5)",
+  "code": "ER_GET_CONNECTION_TIMEOUT",
+  "sqlMessage": "pool timeout: failed to retrieve a connection from pool after 10010ms\n    (pool connections: active=0 idle=0 limit=5)"
+}
+----------------------------------------
+01-02-2026 16:29:45 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "(conn:-1, no: 45028, SQLState: HY000) pool timeout: failed to retrieve a connection from pool after 10006ms\n    (pool connections: active=0 idle=0 limit=5)",
+  "code": "ER_GET_CONNECTION_TIMEOUT",
+  "sqlMessage": "pool timeout: failed to retrieve a connection from pool after 10006ms\n    (pool connections: active=0 idle=0 limit=5)"
+}
+----------------------------------------
+01-02-2026 16:29:45 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "(conn:-1, no: 45028, SQLState: HY000) pool timeout: failed to retrieve a connection from pool after 10010ms\n    (pool connections: active=0 idle=0 limit=5)"
+}
+----------------------------------------
+01-02-2026 17:45:48 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports
+META:
+{
+  "error": "(conn:-1, no: 45028, SQLState: HY000) pool timeout: failed to retrieve a connection from pool after 10013ms\n    (pool connections: active=0 idle=0 limit=5)",
+  "code": "ER_GET_CONNECTION_TIMEOUT",
+  "sqlMessage": "pool timeout: failed to retrieve a connection from pool after 10013ms\n    (pool connections: active=0 idle=0 limit=5)"
+}
+----------------------------------------
+01-02-2026 17:45:48 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "(conn:-1, no: 45028, SQLState: HY000) pool timeout: failed to retrieve a connection from pool after 10013ms\n    (pool connections: active=0 idle=0 limit=5)",
+  "code": "ER_GET_CONNECTION_TIMEOUT",
+  "sqlMessage": "pool timeout: failed to retrieve a connection from pool after 10013ms\n    (pool connections: active=0 idle=0 limit=5)"
+}
+----------------------------------------
+01-02-2026 17:45:48 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "(conn:-1, no: 45028, SQLState: HY000) pool timeout: failed to retrieve a connection from pool after 10013ms\n    (pool connections: active=0 idle=0 limit=5)"
+}
+----------------------------------------
+01-02-2026 17:46:02 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+----------------------------------------
+01-02-2026 17:46:16 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports
+META:
+{
+  "error": "(conn:-1, no: 45028, SQLState: HY000) pool timeout: failed to retrieve a connection from pool after 10005ms\n    (pool connections: active=0 idle=0 limit=5)",
+  "code": "ER_GET_CONNECTION_TIMEOUT",
+  "sqlMessage": "pool timeout: failed to retrieve a connection from pool after 10005ms\n    (pool connections: active=0 idle=0 limit=5)"
+}
+----------------------------------------
+01-02-2026 17:46:16 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "(conn:-1, no: 45028, SQLState: HY000) pool timeout: failed to retrieve a connection from pool after 10004ms\n    (pool connections: active=0 idle=0 limit=5)",
+  "code": "ER_GET_CONNECTION_TIMEOUT",
+  "sqlMessage": "pool timeout: failed to retrieve a connection from pool after 10004ms\n    (pool connections: active=0 idle=0 limit=5)"
+}
+----------------------------------------
+01-02-2026 17:46:16 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "(conn:-1, no: 45028, SQLState: HY000) pool timeout: failed to retrieve a connection from pool after 10005ms\n    (pool connections: active=0 idle=0 limit=5)"
+}
+----------------------------------------
+01-02-2026 17:49:31 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+----------------------------------------
+01-02-2026 17:49:36 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 17:49:36 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 17:49:36 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 18:02:49 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+----------------------------------------
+01-02-2026 18:02:53 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+----------------------------------------
+01-02-2026 18:02:54 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+----------------------------------------
+01-02-2026 18:03:00 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+----------------------------------------
+01-02-2026 18:03:04 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 18:03:04 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 18:03:04 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports
+META:
+{
+  "error": "Plugin 'mysql_native_password' is not loaded",
+  "code": "ER_PLUGIN_IS_NOT_LOADED",
+  "sqlMessage": "Plugin 'mysql_native_password' is not loaded"
+}
+----------------------------------------
+01-02-2026 18:03:16 | INFO | \node_modules\once\once.js:25 | Server started on port 5000
+----------------------------------------
+01-02-2026 18:17:04 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 18:17:12 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 29",
+  "code": "ER_PARSE_ERROR",
+  "sqlMessage": "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 29"
+}
+----------------------------------------
+01-02-2026 18:17:12 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 29"
+}
+----------------------------------------
+01-02-2026 18:17:12 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports
+META:
+{
+  "error": "Table 'u155177299_coremarket.report_master' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "sqlMessage": "Table 'u155177299_coremarket.report_master' doesn't exist"
+}
+----------------------------------------
+01-02-2026 18:18:37 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 29",
+  "code": "ER_PARSE_ERROR",
+  "sqlMessage": "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 29"
+}
+----------------------------------------
+01-02-2026 18:18:37 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 29"
+}
+----------------------------------------
+01-02-2026 18:18:37 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports
+META:
+{
+  "error": "Table 'u155177299_coremarket.report_master' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "sqlMessage": "Table 'u155177299_coremarket.report_master' doesn't exist"
+}
+----------------------------------------
+01-02-2026 18:18:45 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 18:18:47 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 29",
+  "code": "ER_PARSE_ERROR",
+  "sqlMessage": "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 29"
+}
+----------------------------------------
+01-02-2026 18:18:47 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 29"
+}
+----------------------------------------
+01-02-2026 18:18:47 | INFO | node:internal/process/task_queues:105 | Latest reports fetched
+----------------------------------------
+01-02-2026 18:22:35 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 18:22:37 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 18:22:48 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 18:22:49 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 18:22:54 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 18:22:58 | INFO | node:internal/process/task_queues:105 | Latest reports fetched
+----------------------------------------
+01-02-2026 18:22:58 | INFO | node:internal/process/task_queues:105 | Trending reports fetched by CAGR
+----------------------------------------
+01-02-2026 18:22:58 | INFO | node:internal/process/task_queues:105 | Reports API prepared (latest + trending)
+----------------------------------------
+01-02-2026 18:26:57 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 18:27:00 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 18:27:04 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 18:27:08 | ERROR | node:internal/process/task_queues:105 | Failed to fetch trending reports
+META:
+{
+  "error": "Table 'u155177299_coremarket.report_master' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "sqlMessage": "Table 'u155177299_coremarket.report_master' doesn't exist"
+}
+----------------------------------------
+01-02-2026 18:27:08 | ERROR | node:internal/process/task_queues:105 | Reports API failed
+META:
+{
+  "error": "Table 'u155177299_coremarket.report_master' doesn't exist"
+}
+----------------------------------------
+01-02-2026 18:27:08 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest reports
+META:
+{
+  "error": "Table 'u155177299_coremarket.report_master' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "sqlMessage": "Table 'u155177299_coremarket.report_master' doesn't exist"
+}
+----------------------------------------
+01-02-2026 18:27:36 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 18:27:55 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 18:28:01 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 18:28:04 | INFO | node:internal/process/task_queues:105 | Latest reports fetched
+----------------------------------------
+01-02-2026 18:28:04 | INFO | node:internal/process/task_queues:105 | Trending reports fetched by CAGR
+----------------------------------------
+01-02-2026 18:28:04 | INFO | node:internal/process/task_queues:105 | Reports API prepared (latest + trending)
+----------------------------------------
+01-02-2026 21:36:16 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 21:36:59 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:08:27 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:08:31 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:08:45 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:08:46 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:09:08 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:09:09 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:09:11 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:09:16 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:09:27 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:09:33 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:09:38 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:09:48 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:10:09 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:11:46 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:12:22 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:13:24 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:13:59 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest blogs
+META:
+{
+  "error": "Table 'u155177299_coremarket.blogs' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "sqlMessage": "Table 'u155177299_coremarket.blogs' doesn't exist"
+}
+----------------------------------------
+01-02-2026 22:13:59 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest blogs
+META:
+{
+  "error": "Table 'u155177299_coremarket.blogs' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "sqlMessage": "Table 'u155177299_coremarket.blogs' doesn't exist"
+}
+----------------------------------------
+01-02-2026 22:14:20 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:14:23 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest blogs
+META:
+{
+  "error": "Table 'u155177299_coremarket.blogs_master' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "sqlMessage": "Table 'u155177299_coremarket.blogs_master' doesn't exist"
+}
+----------------------------------------
+01-02-2026 22:14:23 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest blogs
+META:
+{
+  "error": "Table 'u155177299_coremarket.blogs_master' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "sqlMessage": "Table 'u155177299_coremarket.blogs_master' doesn't exist"
+}
+----------------------------------------
+01-02-2026 22:14:41 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:14:44 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest blogs
+META:
+{
+  "error": "Unknown column 'readTime' in 'SELECT'",
+  "code": "ER_BAD_FIELD_ERROR",
+  "sqlMessage": "Unknown column 'readTime' in 'SELECT'"
+}
+----------------------------------------
+01-02-2026 22:14:44 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest blogs
+META:
+{
+  "error": "Unknown column 'readTime' in 'SELECT'",
+  "code": "ER_BAD_FIELD_ERROR",
+  "sqlMessage": "Unknown column 'readTime' in 'SELECT'"
+}
+----------------------------------------
+01-02-2026 22:14:58 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:15:00 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest blogs
+META:
+{
+  "error": "Unknown column 'featured' in 'SELECT'",
+  "code": "ER_BAD_FIELD_ERROR",
+  "sqlMessage": "Unknown column 'featured' in 'SELECT'"
+}
+----------------------------------------
+01-02-2026 22:15:00 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest blogs
+META:
+{
+  "error": "Unknown column 'featured' in 'SELECT'",
+  "code": "ER_BAD_FIELD_ERROR",
+  "sqlMessage": "Unknown column 'featured' in 'SELECT'"
+}
+----------------------------------------
+01-02-2026 22:15:33 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:15:38 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest blogs
+META:
+{
+  "error": "Unknown column 'image' in 'SELECT'",
+  "code": "ER_BAD_FIELD_ERROR",
+  "sqlMessage": "Unknown column 'image' in 'SELECT'"
+}
+----------------------------------------
+01-02-2026 22:15:38 | ERROR | node:internal/process/task_queues:105 | Failed to fetch latest blogs
+META:
+{
+  "error": "Unknown column 'image' in 'SELECT'",
+  "code": "ER_BAD_FIELD_ERROR",
+  "sqlMessage": "Unknown column 'image' in 'SELECT'"
+}
+----------------------------------------
+01-02-2026 22:16:15 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:16:29 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:16:31 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:16:37 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:16:47 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:16:49 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:16:58 | INFO | node:internal/process/task_queues:105 | Latest 4 blogs fetched
+----------------------------------------
+01-02-2026 22:16:58 | INFO | node:internal/process/task_queues:105 | Latest blogs API called
+----------------------------------------
+01-02-2026 22:20:49 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:20:50 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:20:52 | INFO | node:internal/process/task_queues:105 | Latest 4 blogs fetched
+----------------------------------------
+01-02-2026 22:20:52 | INFO | node:internal/process/task_queues:105 | Latest blogs API called
+----------------------------------------
+01-02-2026 22:21:09 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+01-02-2026 22:43:39 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
