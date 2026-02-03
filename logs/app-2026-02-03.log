@@ -1,0 +1,84 @@
+03-02-2026 21:49:23 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 21:49:49 | INFO | node:internal/process/task_queues:105 | Latest 4 blogs fetched
+----------------------------------------
+03-02-2026 21:49:49 | INFO | node:internal/process/task_queues:105 | Latest blogs API called
+----------------------------------------
+03-02-2026 21:52:03 | INFO | node:internal/process/task_queues:105 | Latest reports fetched
+----------------------------------------
+03-02-2026 21:52:03 | INFO | node:internal/process/task_queues:105 | Trending reports fetched by CAGR
+----------------------------------------
+03-02-2026 21:52:03 | INFO | node:internal/process/task_queues:105 | Reports API prepared (latest + trending)
+----------------------------------------
+03-02-2026 22:13:49 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:14:02 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:14:13 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:14:29 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:14:39 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:14:47 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:16:17 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:25:57 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:27:01 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:27:09 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:27:32 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:45:44 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:46:02 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:46:26 | INFO | node:internal/process/task_queues:105 | Latest reports fetched
+----------------------------------------
+03-02-2026 22:46:26 | INFO | node:internal/process/task_queues:105 | Trending reports fetched by CAGR
+----------------------------------------
+03-02-2026 22:46:26 | INFO | node:internal/process/task_queues:105 | Reports API prepared (latest + trending)
+----------------------------------------
+03-02-2026 22:47:14 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:47:21 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:47:30 | INFO | node:internal/process/task_queues:105 | Trending reports fetched by CAGR
+----------------------------------------
+03-02-2026 22:47:31 | INFO | node:internal/process/task_queues:105 | Latest reports fetched
+----------------------------------------
+03-02-2026 22:47:31 | INFO | node:internal/process/task_queues:105 | Reports API prepared (latest + trending)
+----------------------------------------
+03-02-2026 22:47:57 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:47:59 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:48:55 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:48:56 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:48:57 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:49:21 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:49:27 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:49:45 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:50:04 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:50:12 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:57:52 | INFO | node:events:632 | Server started on port 5000
+----------------------------------------
+03-02-2026 22:58:03 | INFO | node:internal/process/task_queues:105 | Reports fetched with market metrics
+META:
+{
+  "industryId": null,
+  "limit": 20,
+  "offset": 0
+}
+----------------------------------------

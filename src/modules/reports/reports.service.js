@@ -1,4 +1,4 @@
-import {reportDB} from "../../config/db.js";
+import { reportDB } from "../../config/db.js";
 import { writeLog } from "../../utils/writeLog.js";
 
 /**
@@ -97,4 +97,110 @@ export const fetchTrendingReports = async (limit = 6) => {
     });
     throw error;
   }
+};
+
+/**
+ * Fetch reports
+ */
+export const fetchReports = async ({
+  industryId = null,
+  limit = 20,
+  offset = 0,
+}) => {
+  try {
+    let sql = `
+      SELECT
+        rm.Id,
+        rm.IndustryId,
+        rm.Name,
+        rm.Path,
+        rm.Single_User_Prize,
+        DATE_FORMAT(
+          COALESCE(rm.UpdateAt, rm.CreateAt),
+          '%b %Y'
+        ) AS date,
+        rmm.cagr AS growth,
+        rmm.market_reach
+      FROM report_master rm
+      LEFT JOIN report_market_metrics rmm
+        ON rmm.report_id = rm.Id
+      WHERE rm.IsActive = ?
+    `;
+
+    const params = [1];
+
+    if (industryId) {
+      sql += ` AND rm.IndustryId = ?`;
+      params.push(industryId);
+    }
+
+    sql += `
+      ORDER BY COALESCE(rm.UpdateAt, rm.CreateAt) DESC
+      LIMIT ? OFFSET ?
+    `;
+
+    params.push(Number(limit), Number(offset));
+
+    const [rows] = await reportDB.execute(sql, params);
+
+    writeLog("INFO", "Reports fetched with market metrics", {
+      industryId,
+      limit,
+      offset,
+    });
+
+    return rows.map((row) => ({
+      IndustryId: row.IndustryId,
+      title: sanitizeReportTitle(row.Name),
+      slug: `/${row.Path}`,
+      date: row.date,
+      growth: normalizeCagr(row.growth),
+      market_reach: row.market_reach,
+      pages: 230, // future column
+      price: formatPrice(row.Single_User_Prize),
+    }));
+  } catch (error) {
+    writeLog("ERROR", "Failed to fetch reports", {
+      error: error.message,
+      code: error.code,
+      sqlMessage: error.sqlMessage,
+    });
+    throw error;
+  }
+};
+
+/* ================= HELPERS ================= */
+
+const sanitizeReportTitle = (title = "") => {
+  let clean = title.trim();
+  clean = clean.replace(/^["']|["']$/g, "");
+
+  if (clean.includes("|")) {
+    clean = clean.split("|")[0].trim();
+  }
+
+  return clean.replace(/\.$/, "");
+};
+
+const normalizeCagr = (cagr) => {
+  if (!cagr) return null;
+
+  let value = cagr.trim();
+
+  // Ensure + sign
+  if (!value.startsWith("+") && !value.startsWith("-")) {
+    value = `+${value}`;
+  }
+
+  // Ensure % sign
+  if (!value.includes("%")) {
+    value = `${value}%`;
+  }
+
+  return value;
+};
+
+const formatPrice = (price) => {
+  if (!price) return null;
+  return `$${Number(price).toLocaleString("en-US")}`;
 };

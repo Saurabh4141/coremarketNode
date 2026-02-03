@@ -1,11 +1,12 @@
 import {
   fetchLatestReports,
   fetchTrendingReports,
+  fetchReports
 } from "./reports.service.js";
 import { writeLog } from "../../utils/writeLog.js";
 import { sanitizeTitle } from "../../utils/sanitize.js";
 
-export const getReports = async (req, res) => {
+export const getHomeReports = async (req, res) => {
   try {
     const [latestRows, trendingRows] = await Promise.all([
       fetchLatestReports(6),
@@ -31,6 +32,44 @@ export const getReports = async (req, res) => {
     res.json({
       success: true,
       data: { latest, trending },
+    });
+  } catch (error) {
+    writeLog("ERROR", "Reports API failed", {
+      error: error.message,
+    });
+
+    res.status(500).json({
+      success: false,
+      message: "Failed to fetch reports",
+    });
+  }
+};
+
+
+export const getReports = async (req, res) => {
+  try {
+    const {
+      industryId,
+      page = 1,
+      limit = 20,
+    } = req.query;
+
+    const safeLimit = Math.min(Number(limit), 50);
+    const offset = (Number(page) - 1) * safeLimit;
+
+    const reports = await fetchReports({
+      industryId: industryId ? Number(industryId) : null,
+      limit: safeLimit,
+      offset,
+    });
+
+    res.json({
+      success: true,
+      data: reports,
+      pagination: {
+        page: Number(page),
+        limit: safeLimit,
+      },
     });
   } catch (error) {
     writeLog("ERROR", "Reports API failed", {
