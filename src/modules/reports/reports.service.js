@@ -169,6 +169,68 @@ export const fetchReports = async ({
   }
 };
 
+/**
+ * Fetch related reports by IndustryId
+ */
+export const fetchRelatedReports = async ({
+  industryId,
+  excludeReportId = null,
+  limit = 3,
+}) => {
+  try {
+    let sql = `
+      SELECT
+        Id,
+        Name,
+        Description,
+        ImagePath,
+        Path
+      FROM report_master
+      WHERE
+        IndustryId = ?
+        AND IsActive = b'1'
+    `;
+
+    const params = [industryId];
+
+    if (excludeReportId) {
+      sql += ` AND Id != ?`;
+      params.push(excludeReportId);
+    }
+
+    sql += `
+      ORDER BY CreateAt DESC
+      LIMIT ?
+    `;
+
+    params.push(Number(limit));
+
+    const [rows] = await reportDB.execute(sql, params);
+
+    writeLog("INFO", "Related reports fetched", {
+      industryId,
+      excludeReportId,
+      count: rows.length,
+    });
+
+    return rows.map((row) => ({
+      slug: `/${row.Path}`,
+      title: sanitizeReportTitle(row.Name),
+      description: row.Description,
+      image: row.ImagePath ? `/${row.ImagePath}` : "/placeholder.svg",
+    }));
+  } catch (error) {
+    writeLog("ERROR", "Failed to fetch related reports", {
+      industryId,
+      excludeReportId,
+      error: error.message,
+      code: error.code,
+      sqlMessage: error.sqlMessage,
+    });
+    throw error;
+  }
+};
+
 /* ================= HELPERS ================= */
 
 const sanitizeReportTitle = (title = "") => {

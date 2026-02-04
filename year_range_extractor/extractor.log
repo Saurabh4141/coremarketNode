@@ -1,0 +1,253 @@
+2026-02-04 17:21:42,718 | INFO | ===== Year Range Extraction Started =====
+2026-02-04 17:21:42,718 | INFO | Connecting to database...
+2026-02-04 17:21:42,836 | INFO | Database connection successful
+2026-02-04 17:21:42,836 | INFO | Executing query...
+2026-02-04 17:21:44,801 | INFO | Processed 1000 records | Matched 983
+2026-02-04 17:21:48,678 | INFO | Processed 3000 records | Matched 2942
+2026-02-04 17:21:50,567 | INFO | Processed 4000 records | Matched 3923
+2026-02-04 17:21:52,514 | INFO | Processed 5000 records | Matched 4906
+2026-02-04 17:21:52,719 | INFO | Created file output\year_ranges_1.csv with 5000 records
+2026-02-04 17:21:54,496 | INFO | Processed 6000 records | Matched 5890
+2026-02-04 17:21:56,474 | INFO | Processed 7000 records | Matched 6868
+2026-02-04 17:21:58,440 | INFO | Processed 8000 records | Matched 7854
+2026-02-04 17:22:00,619 | INFO | Processed 9000 records | Matched 8835
+2026-02-04 17:22:02,613 | INFO | Processed 10000 records | Matched 9824
+2026-02-04 17:22:02,989 | INFO | Created file output\year_ranges_2.csv with 5000 records
+2026-02-04 17:22:04,629 | INFO | Processed 11000 records | Matched 10809
+2026-02-04 17:22:06,551 | INFO | Processed 12000 records | Matched 11782
+2026-02-04 17:22:08,462 | INFO | Processed 13000 records | Matched 12758
+2026-02-04 17:22:10,418 | INFO | Processed 14000 records | Matched 13743
+2026-02-04 17:22:12,634 | INFO | Processed 15000 records | Matched 14728
+2026-02-04 17:22:13,192 | INFO | Created file output\year_ranges_3.csv with 5000 records
+2026-02-04 17:22:14,597 | INFO | Processed 16000 records | Matched 15711
+2026-02-04 17:22:16,571 | INFO | Processed 17000 records | Matched 16693
+2026-02-04 17:22:18,505 | INFO | Processed 18000 records | Matched 17678
+2026-02-04 17:22:20,405 | INFO | Processed 19000 records | Matched 18662
+2026-02-04 17:22:22,492 | INFO | Processed 20000 records | Matched 19641
+2026-02-04 17:22:27,046 | INFO | Created file output\year_ranges_4.csv with 5000 records
+2026-02-04 17:22:28,346 | INFO | Processed 21000 records | Matched 20621
+2026-02-04 17:22:30,716 | INFO | Processed 22000 records | Matched 21605
+2026-02-04 17:22:32,732 | INFO | Processed 23000 records | Matched 22590
+2026-02-04 17:22:34,750 | INFO | Processed 24000 records | Matched 23575
+2026-02-04 17:22:36,773 | INFO | Processed 25000 records | Matched 24561
+2026-02-04 17:22:37,685 | INFO | Created file output\year_ranges_5.csv with 5000 records
+2026-02-04 17:22:38,776 | INFO | Processed 26000 records | Matched 25541
+2026-02-04 17:22:40,810 | INFO | Processed 27000 records | Matched 26525
+2026-02-04 17:22:42,803 | INFO | Processed 28000 records | Matched 27509
+2026-02-04 17:22:44,985 | INFO | Processed 29000 records | Matched 28492
+2026-02-04 17:22:47,149 | INFO | Processed 30000 records | Matched 29479
+2026-02-04 17:22:48,320 | INFO | Created file output\year_ranges_6.csv with 5000 records
+2026-02-04 17:22:49,290 | INFO | Processed 31000 records | Matched 30464
+2026-02-04 17:22:51,292 | INFO | Processed 32000 records | Matched 31452
+2026-02-04 17:22:53,427 | INFO | Processed 33000 records | Matched 32434
+2026-02-04 17:22:55,468 | INFO | Processed 34000 records | Matched 33418
+2026-02-04 17:22:57,479 | INFO | Processed 35000 records | Matched 34411
+2026-02-04 17:22:58,703 | INFO | Created file output\year_ranges_7.csv with 5000 records
+2026-02-04 17:22:59,453 | INFO | Processed 36000 records | Matched 35392
+2026-02-04 17:23:01,579 | INFO | Processed 37000 records | Matched 36373
+2026-02-04 17:23:03,628 | INFO | Processed 38000 records | Matched 37350
+2026-02-04 17:23:05,711 | INFO | Processed 39000 records | Matched 38331
+2026-02-04 17:23:07,738 | INFO | Processed 40000 records | Matched 39312
+2026-02-04 17:23:09,151 | INFO | Created file output\year_ranges_8.csv with 5000 records
+2026-02-04 17:23:09,721 | INFO | Processed 41000 records | Matched 40290
+2026-02-04 17:23:11,711 | INFO | Processed 42000 records | Matched 41275
+2026-02-04 17:23:13,694 | INFO | Processed 43000 records | Matched 42259
+2026-02-04 17:23:15,663 | INFO | Processed 44000 records | Matched 43238
+2026-02-04 17:23:17,881 | INFO | Processed 45000 records | Matched 44224
+2026-02-04 17:23:19,453 | INFO | Created file output\year_ranges_9.csv with 5000 records
+2026-02-04 17:23:19,853 | INFO | Processed 46000 records | Matched 45210
+2026-02-04 17:23:21,865 | INFO | Processed 47000 records | Matched 46192
+2026-02-04 17:23:23,858 | INFO | Processed 48000 records | Matched 47180
+2026-02-04 17:23:25,822 | INFO | Processed 49000 records | Matched 48166
+2026-02-04 17:23:27,965 | INFO | Processed 50000 records | Matched 49150
+2026-02-04 17:23:29,696 | INFO | Created file output\year_ranges_10.csv with 5000 records
+2026-02-04 17:23:29,947 | INFO | Processed 51000 records | Matched 50132
+2026-02-04 17:23:31,953 | INFO | Processed 52000 records | Matched 51117
+2026-02-04 17:23:33,892 | INFO | Processed 53000 records | Matched 52102
+2026-02-04 17:23:35,849 | INFO | Processed 54000 records | Matched 53092
+2026-02-04 17:23:38,001 | INFO | Processed 55000 records | Matched 54072
+2026-02-04 17:23:39,856 | INFO | Created file output\year_ranges_11.csv with 5000 records
+2026-02-04 17:23:39,929 | INFO | Processed 56000 records | Matched 55044
+2026-02-04 17:23:41,872 | INFO | Processed 57000 records | Matched 56034
+2026-02-04 17:40:38,615 | INFO | ===== Year Range Extraction Started =====
+2026-02-04 17:40:38,754 | INFO | Database connection successful
+2026-02-04 17:40:40,791 | INFO | Processed up to ReportId=1000 | Processed=1000 | Matched=983 | NotFound=17
+2026-02-04 17:40:42,793 | INFO | Processed up to ReportId=2002 | Processed=2000 | Matched=1964 | NotFound=36
+2026-02-04 17:40:44,781 | INFO | Processed up to ReportId=3002 | Processed=3000 | Matched=2942 | NotFound=58
+2026-02-04 17:40:46,836 | INFO | Processed up to ReportId=4002 | Processed=4000 | Matched=3923 | NotFound=77
+2026-02-04 17:40:48,841 | INFO | Processed up to ReportId=5002 | Processed=5000 | Matched=4906 | NotFound=94
+2026-02-04 17:40:50,852 | INFO | Created output\year_ranges_1.csv with 5000 records
+2026-02-04 17:40:50,896 | INFO | Processed up to ReportId=6002 | Processed=6000 | Matched=5890 | NotFound=110
+2026-02-04 17:40:53,122 | INFO | Processed up to ReportId=7004 | Processed=7000 | Matched=6868 | NotFound=132
+2026-02-04 17:40:55,147 | INFO | Processed up to ReportId=8005 | Processed=8000 | Matched=7854 | NotFound=146
+2026-02-04 17:40:57,201 | INFO | Processed up to ReportId=9006 | Processed=9000 | Matched=8835 | NotFound=165
+2026-02-04 17:40:59,253 | INFO | Processed up to ReportId=10007 | Processed=10000 | Matched=9824 | NotFound=176
+2026-02-04 17:41:01,278 | INFO | Created output\year_ranges_2.csv with 5000 records
+2026-02-04 17:41:01,316 | INFO | Processed up to ReportId=11007 | Processed=11000 | Matched=10809 | NotFound=191
+2026-02-04 17:41:03,509 | INFO | Processed up to ReportId=12012 | Processed=12000 | Matched=11782 | NotFound=218
+2026-02-04 17:41:05,495 | INFO | Processed up to ReportId=13012 | Processed=13000 | Matched=12758 | NotFound=242
+2026-02-04 17:41:07,509 | INFO | Processed up to ReportId=14012 | Processed=14000 | Matched=13743 | NotFound=257
+2026-02-04 17:41:09,560 | INFO | Processed up to ReportId=15013 | Processed=15000 | Matched=14728 | NotFound=272
+2026-02-04 17:41:11,561 | INFO | Created output\year_ranges_3.csv with 5000 records
+2026-02-04 17:41:11,601 | INFO | Processed up to ReportId=16013 | Processed=16000 | Matched=15711 | NotFound=289
+2026-02-04 17:41:13,830 | INFO | Processed up to ReportId=17013 | Processed=17000 | Matched=16693 | NotFound=307
+2026-02-04 17:41:15,819 | INFO | Processed up to ReportId=18014 | Processed=18000 | Matched=17678 | NotFound=322
+2026-02-04 17:41:17,776 | INFO | Processed up to ReportId=19014 | Processed=19000 | Matched=18662 | NotFound=338
+2026-02-04 17:41:19,727 | INFO | Processed up to ReportId=20015 | Processed=20000 | Matched=19641 | NotFound=359
+2026-02-04 17:41:21,703 | INFO | Created output\year_ranges_4.csv with 5000 records
+2026-02-04 17:41:21,734 | INFO | Processed up to ReportId=21015 | Processed=21000 | Matched=20621 | NotFound=379
+2026-02-04 17:41:24,009 | INFO | Processed up to ReportId=22149 | Processed=22000 | Matched=21605 | NotFound=395
+2026-02-04 17:41:26,101 | INFO | Processed up to ReportId=23151 | Processed=23000 | Matched=22590 | NotFound=410
+2026-02-04 17:41:28,209 | INFO | Processed up to ReportId=24152 | Processed=24000 | Matched=23575 | NotFound=425
+2026-02-04 17:41:30,298 | INFO | Processed up to ReportId=25152 | Processed=25000 | Matched=24561 | NotFound=439
+2026-02-04 17:41:32,401 | INFO | Created output\year_ranges_5.csv with 5000 records
+2026-02-04 17:41:32,431 | INFO | Processed up to ReportId=26152 | Processed=26000 | Matched=25541 | NotFound=459
+2026-02-04 17:41:34,722 | INFO | Processed up to ReportId=27152 | Processed=27000 | Matched=26525 | NotFound=475
+2026-02-04 17:41:36,781 | INFO | Processed up to ReportId=28152 | Processed=28000 | Matched=27509 | NotFound=491
+2026-02-04 17:41:38,839 | INFO | Processed up to ReportId=29152 | Processed=29000 | Matched=28492 | NotFound=508
+2026-02-04 17:41:40,927 | INFO | Processed up to ReportId=30152 | Processed=30000 | Matched=29479 | NotFound=521
+2026-02-04 17:41:42,982 | INFO | Created output\year_ranges_6.csv with 5000 records
+2026-02-04 17:41:43,004 | INFO | Processed up to ReportId=31152 | Processed=31000 | Matched=30464 | NotFound=536
+2026-02-04 17:41:45,235 | INFO | Processed up to ReportId=32152 | Processed=32000 | Matched=31452 | NotFound=548
+2026-02-04 17:41:47,273 | INFO | Processed up to ReportId=33153 | Processed=33000 | Matched=32434 | NotFound=566
+2026-02-04 17:41:49,312 | INFO | Processed up to ReportId=34154 | Processed=34000 | Matched=33418 | NotFound=582
+2026-02-04 17:41:51,306 | INFO | Processed up to ReportId=35155 | Processed=35000 | Matched=34411 | NotFound=589
+2026-02-04 17:41:53,374 | INFO | Created output\year_ranges_7.csv with 5000 records
+2026-02-04 17:41:53,392 | INFO | Processed up to ReportId=36155 | Processed=36000 | Matched=35392 | NotFound=608
+2026-02-04 17:41:55,573 | INFO | Processed up to ReportId=37155 | Processed=37000 | Matched=36373 | NotFound=627
+2026-02-04 17:41:57,699 | INFO | Processed up to ReportId=38155 | Processed=38000 | Matched=37350 | NotFound=650
+2026-02-04 17:41:59,804 | INFO | Processed up to ReportId=39155 | Processed=39000 | Matched=38331 | NotFound=669
+2026-02-04 17:42:01,890 | INFO | Processed up to ReportId=40202 | Processed=40000 | Matched=39312 | NotFound=688
+2026-02-04 17:42:03,932 | INFO | Created output\year_ranges_8.csv with 5000 records
+2026-02-04 17:42:03,948 | INFO | Processed up to ReportId=41203 | Processed=41000 | Matched=40290 | NotFound=710
+2026-02-04 17:42:06,185 | INFO | Processed up to ReportId=42203 | Processed=42000 | Matched=41275 | NotFound=725
+2026-02-04 17:42:08,219 | INFO | Processed up to ReportId=43203 | Processed=43000 | Matched=42259 | NotFound=741
+2026-02-04 17:42:10,253 | INFO | Processed up to ReportId=44205 | Processed=44000 | Matched=43238 | NotFound=762
+2026-02-04 17:42:12,303 | INFO | Processed up to ReportId=45205 | Processed=45000 | Matched=44224 | NotFound=776
+2026-02-04 17:42:14,343 | INFO | Created output\year_ranges_9.csv with 5000 records
+2026-02-04 17:42:14,350 | INFO | Processed up to ReportId=46205 | Processed=46000 | Matched=45210 | NotFound=790
+2026-02-04 17:42:16,594 | INFO | Processed up to ReportId=47205 | Processed=47000 | Matched=46192 | NotFound=808
+2026-02-04 17:42:18,654 | INFO | Processed up to ReportId=48205 | Processed=48000 | Matched=47180 | NotFound=820
+2026-02-04 17:42:20,668 | INFO | Processed up to ReportId=49205 | Processed=49000 | Matched=48166 | NotFound=834
+2026-02-04 17:42:22,703 | INFO | Processed up to ReportId=50205 | Processed=50000 | Matched=49150 | NotFound=850
+2026-02-04 17:42:24,752 | INFO | Created output\year_ranges_10.csv with 5000 records
+2026-02-04 17:42:24,759 | INFO | Processed up to ReportId=51205 | Processed=51000 | Matched=50132 | NotFound=868
+2026-02-04 17:42:26,987 | INFO | Processed up to ReportId=52205 | Processed=52000 | Matched=51117 | NotFound=883
+2026-02-04 17:42:28,974 | INFO | Processed up to ReportId=53205 | Processed=53000 | Matched=52102 | NotFound=898
+2026-02-04 17:42:30,999 | INFO | Processed up to ReportId=54205 | Processed=54000 | Matched=53092 | NotFound=908
+2026-02-04 17:42:33,023 | INFO | Processed up to ReportId=55205 | Processed=55000 | Matched=54072 | NotFound=928
+2026-02-04 17:42:35,030 | INFO | Created output\year_ranges_11.csv with 5000 records
+2026-02-04 17:42:35,033 | INFO | Processed up to ReportId=56205 | Processed=56000 | Matched=55044 | NotFound=956
+2026-02-04 17:42:37,031 | INFO | Processed up to ReportId=57205 | Processed=57000 | Matched=56034 | NotFound=966
+2026-02-04 17:42:39,067 | INFO | Processed up to ReportId=58205 | Processed=58000 | Matched=57017 | NotFound=983
+2026-02-04 17:42:41,109 | INFO | Processed up to ReportId=59206 | Processed=59000 | Matched=57995 | NotFound=1005
+2026-02-04 17:42:43,128 | INFO | Processed up to ReportId=60207 | Processed=60000 | Matched=58978 | NotFound=1022
+2026-02-04 17:42:45,169 | INFO | Processed up to ReportId=61207 | Processed=61000 | Matched=59962 | NotFound=1038
+2026-02-04 17:42:47,158 | INFO | Created output\year_ranges_12.csv with 5000 records
+2026-02-04 17:42:47,209 | INFO | Processed up to ReportId=62207 | Processed=62000 | Matched=60943 | NotFound=1057
+2026-02-04 17:42:49,224 | INFO | Processed up to ReportId=63207 | Processed=63000 | Matched=61927 | NotFound=1073
+2026-02-04 17:42:51,283 | INFO | Processed up to ReportId=64207 | Processed=64000 | Matched=62900 | NotFound=1100
+2026-02-04 17:42:53,368 | INFO | Processed up to ReportId=65207 | Processed=65000 | Matched=63884 | NotFound=1116
+2026-02-04 17:42:55,384 | INFO | Processed up to ReportId=66208 | Processed=66000 | Matched=64860 | NotFound=1140
+2026-02-04 17:42:57,343 | INFO | Created output\year_ranges_13.csv with 5000 records
+2026-02-04 17:42:57,386 | INFO | Processed up to ReportId=67208 | Processed=67000 | Matched=65841 | NotFound=1159
+2026-02-04 17:42:59,354 | INFO | Processed up to ReportId=68209 | Processed=68000 | Matched=66821 | NotFound=1179
+2026-02-04 17:43:01,597 | INFO | Processed up to ReportId=69210 | Processed=69000 | Matched=67805 | NotFound=1195
+2026-02-04 17:43:03,431 | INFO | Processed up to ReportId=70097 | Processed=69887 | Matched=68678 | NotFound=1209
+2026-02-04 17:43:03,453 | INFO | Created output\year_ranges_14.csv with 3678 records
+2026-02-04 17:43:03,457 | INFO | ===== Extraction Completed =====
+2026-02-04 17:43:03,458 | INFO | Total processed : 69887
+2026-02-04 17:43:03,458 | INFO | Total matched   : 68678
+2026-02-04 17:43:03,458 | INFO | Total not found : 1209
+2026-02-04 17:43:03,458 | INFO | Total files created : 14
+2026-02-04 17:55:20,085 | INFO | ===== Year Range Extraction Started =====
+2026-02-04 17:55:20,204 | INFO | Database connection successful
+2026-02-04 17:55:22,361 | INFO | Processed up to ReportId=1000 | Processed=1000 | Matched=1000 | NotFound=0
+2026-02-04 17:55:24,517 | INFO | Processed up to ReportId=2002 | Processed=2000 | Matched=2000 | NotFound=0
+2026-02-04 17:55:26,671 | INFO | Processed up to ReportId=3002 | Processed=3000 | Matched=3000 | NotFound=0
+2026-02-04 17:55:28,776 | INFO | Processed up to ReportId=4002 | Processed=4000 | Matched=4000 | NotFound=0
+2026-02-04 17:55:30,938 | INFO | Processed up to ReportId=5002 | Processed=5000 | Matched=4999 | NotFound=1
+2026-02-04 17:55:32,944 | INFO | Created output\year_ranges_1.csv with 5000 records
+2026-02-04 17:55:33,141 | INFO | Processed up to ReportId=6002 | Processed=6000 | Matched=5997 | NotFound=3
+2026-02-04 17:55:35,315 | INFO | Processed up to ReportId=7004 | Processed=7000 | Matched=6996 | NotFound=4
+2026-02-04 17:55:37,479 | INFO | Processed up to ReportId=8005 | Processed=8000 | Matched=7995 | NotFound=5
+2026-02-04 17:55:39,671 | INFO | Processed up to ReportId=9006 | Processed=9000 | Matched=8994 | NotFound=6
+2026-02-04 17:55:41,864 | INFO | Processed up to ReportId=10007 | Processed=10000 | Matched=9993 | NotFound=7
+2026-02-04 17:55:43,879 | INFO | Created output\year_ranges_2.csv with 5000 records
+2026-02-04 17:55:44,067 | INFO | Processed up to ReportId=11007 | Processed=11000 | Matched=10993 | NotFound=7
+2026-02-04 17:55:46,379 | INFO | Processed up to ReportId=12012 | Processed=12000 | Matched=11993 | NotFound=7
+2026-02-04 17:55:48,499 | INFO | Processed up to ReportId=13012 | Processed=13000 | Matched=12990 | NotFound=10
+2026-02-04 17:55:50,654 | INFO | Processed up to ReportId=14012 | Processed=14000 | Matched=13989 | NotFound=11
+2026-02-04 17:55:52,849 | INFO | Processed up to ReportId=15013 | Processed=15000 | Matched=14988 | NotFound=12
+2026-02-04 17:55:54,838 | INFO | Created output\year_ranges_3.csv with 5000 records
+2026-02-04 17:55:55,030 | INFO | Processed up to ReportId=16013 | Processed=16000 | Matched=15986 | NotFound=14
+2026-02-04 17:55:57,399 | INFO | Processed up to ReportId=17013 | Processed=17000 | Matched=16986 | NotFound=14
+2026-02-04 17:55:59,520 | INFO | Processed up to ReportId=18014 | Processed=18000 | Matched=17985 | NotFound=15
+2026-02-04 17:56:01,618 | INFO | Processed up to ReportId=19014 | Processed=19000 | Matched=18983 | NotFound=17
+2026-02-04 17:56:03,713 | INFO | Processed up to ReportId=20015 | Processed=20000 | Matched=19982 | NotFound=18
+2026-02-04 17:56:05,675 | INFO | Created output\year_ranges_4.csv with 5000 records
+2026-02-04 17:56:05,862 | INFO | Processed up to ReportId=21015 | Processed=21000 | Matched=20980 | NotFound=20
+2026-02-04 17:56:08,071 | INFO | Processed up to ReportId=22149 | Processed=22000 | Matched=21979 | NotFound=21
+2026-02-04 17:56:10,298 | INFO | Processed up to ReportId=23151 | Processed=23000 | Matched=22979 | NotFound=21
+2026-02-04 17:56:12,519 | INFO | Processed up to ReportId=24152 | Processed=24000 | Matched=23979 | NotFound=21
+2026-02-04 17:56:14,750 | INFO | Processed up to ReportId=25152 | Processed=25000 | Matched=24979 | NotFound=21
+2026-02-04 17:56:16,782 | INFO | Created output\year_ranges_5.csv with 5000 records
+2026-02-04 17:56:16,974 | INFO | Processed up to ReportId=26152 | Processed=26000 | Matched=25979 | NotFound=21
+2026-02-04 17:56:19,220 | INFO | Processed up to ReportId=27152 | Processed=27000 | Matched=26977 | NotFound=23
+2026-02-04 17:56:21,420 | INFO | Processed up to ReportId=28152 | Processed=28000 | Matched=27977 | NotFound=23
+2026-02-04 17:56:23,810 | INFO | Processed up to ReportId=29152 | Processed=29000 | Matched=28977 | NotFound=23
+2026-02-04 17:56:26,051 | INFO | Processed up to ReportId=30152 | Processed=30000 | Matched=29977 | NotFound=23
+2026-02-04 17:56:28,085 | INFO | Created output\year_ranges_6.csv with 5000 records
+2026-02-04 17:56:28,266 | INFO | Processed up to ReportId=31152 | Processed=31000 | Matched=30975 | NotFound=25
+2026-02-04 17:56:30,450 | INFO | Processed up to ReportId=32152 | Processed=32000 | Matched=31975 | NotFound=25
+2026-02-04 17:56:32,622 | INFO | Processed up to ReportId=33153 | Processed=33000 | Matched=32974 | NotFound=26
+2026-02-04 17:56:34,988 | INFO | Processed up to ReportId=34154 | Processed=34000 | Matched=33974 | NotFound=26
+2026-02-04 17:56:37,122 | INFO | Processed up to ReportId=35155 | Processed=35000 | Matched=34973 | NotFound=27
+2026-02-04 17:56:39,131 | INFO | Created output\year_ranges_7.csv with 5000 records
+2026-02-04 17:56:39,319 | INFO | Processed up to ReportId=36155 | Processed=36000 | Matched=35972 | NotFound=28
+2026-02-04 17:56:41,443 | INFO | Processed up to ReportId=37155 | Processed=37000 | Matched=36972 | NotFound=28
+2026-02-04 17:56:43,914 | INFO | Processed up to ReportId=38155 | Processed=38000 | Matched=37970 | NotFound=30
+2026-02-04 17:56:46,172 | INFO | Processed up to ReportId=39155 | Processed=39000 | Matched=38969 | NotFound=31
+2026-02-04 17:56:48,407 | INFO | Processed up to ReportId=40202 | Processed=40000 | Matched=39968 | NotFound=32
+2026-02-04 17:56:50,417 | INFO | Created output\year_ranges_8.csv with 5000 records
+2026-02-04 17:56:50,602 | INFO | Processed up to ReportId=41203 | Processed=41000 | Matched=40967 | NotFound=33
+2026-02-04 17:56:52,790 | INFO | Processed up to ReportId=42203 | Processed=42000 | Matched=41967 | NotFound=33
+2026-02-04 17:56:55,158 | INFO | Processed up to ReportId=43203 | Processed=43000 | Matched=42967 | NotFound=33
+2026-02-04 17:56:57,334 | INFO | Processed up to ReportId=44205 | Processed=44000 | Matched=43967 | NotFound=33
+2026-02-04 17:56:59,508 | INFO | Processed up to ReportId=45205 | Processed=45000 | Matched=44966 | NotFound=34
+2026-02-04 17:57:01,511 | INFO | Created output\year_ranges_9.csv with 5000 records
+2026-02-04 17:57:01,694 | INFO | Processed up to ReportId=46205 | Processed=46000 | Matched=45966 | NotFound=34
+2026-02-04 17:57:04,078 | INFO | Processed up to ReportId=47205 | Processed=47000 | Matched=46965 | NotFound=35
+2026-02-04 17:57:06,261 | INFO | Processed up to ReportId=48205 | Processed=48000 | Matched=47965 | NotFound=35
+2026-02-04 17:57:08,414 | INFO | Processed up to ReportId=49205 | Processed=49000 | Matched=48964 | NotFound=36
+2026-02-04 17:57:10,565 | INFO | Processed up to ReportId=50205 | Processed=50000 | Matched=49964 | NotFound=36
+2026-02-04 17:57:12,584 | INFO | Created output\year_ranges_10.csv with 5000 records
+2026-02-04 17:57:12,770 | INFO | Processed up to ReportId=51205 | Processed=51000 | Matched=50963 | NotFound=37
+2026-02-04 17:57:14,950 | INFO | Processed up to ReportId=52205 | Processed=52000 | Matched=51963 | NotFound=37
+2026-02-04 17:57:17,078 | INFO | Processed up to ReportId=53205 | Processed=53000 | Matched=52963 | NotFound=37
+2026-02-04 17:57:19,244 | INFO | Processed up to ReportId=54205 | Processed=54000 | Matched=53962 | NotFound=38
+2026-02-04 17:57:21,406 | INFO | Processed up to ReportId=55205 | Processed=55000 | Matched=54962 | NotFound=38
+2026-02-04 17:57:23,554 | INFO | Created output\year_ranges_11.csv with 5000 records
+2026-02-04 17:57:23,746 | INFO | Processed up to ReportId=56205 | Processed=56000 | Matched=55962 | NotFound=38
+2026-02-04 17:57:25,884 | INFO | Processed up to ReportId=57205 | Processed=57000 | Matched=56962 | NotFound=38
+2026-02-04 17:57:28,065 | INFO | Processed up to ReportId=58205 | Processed=58000 | Matched=57962 | NotFound=38
+2026-02-04 17:57:30,247 | INFO | Processed up to ReportId=59206 | Processed=59000 | Matched=58959 | NotFound=41
+2026-02-04 17:57:32,401 | INFO | Processed up to ReportId=60207 | Processed=60000 | Matched=59958 | NotFound=42
+2026-02-04 17:57:34,601 | INFO | Created output\year_ranges_12.csv with 5000 records
+2026-02-04 17:57:34,791 | INFO | Processed up to ReportId=61207 | Processed=61000 | Matched=60956 | NotFound=44
+2026-02-04 17:57:36,949 | INFO | Processed up to ReportId=62207 | Processed=62000 | Matched=61954 | NotFound=46
+2026-02-04 17:57:39,102 | INFO | Processed up to ReportId=63207 | Processed=63000 | Matched=62954 | NotFound=46
+2026-02-04 17:57:41,302 | INFO | Processed up to ReportId=64207 | Processed=64000 | Matched=63949 | NotFound=51
+2026-02-04 17:57:43,524 | INFO | Processed up to ReportId=65207 | Processed=65000 | Matched=64948 | NotFound=52
+2026-02-04 17:57:45,703 | INFO | Created output\year_ranges_13.csv with 5000 records
+2026-02-04 17:57:45,893 | INFO | Processed up to ReportId=66208 | Processed=66000 | Matched=65946 | NotFound=54
+2026-02-04 17:57:48,016 | INFO | Processed up to ReportId=67208 | Processed=67000 | Matched=66942 | NotFound=58
+2026-02-04 17:57:50,118 | INFO | Processed up to ReportId=68209 | Processed=68000 | Matched=67941 | NotFound=59
+2026-02-04 17:57:52,302 | INFO | Processed up to ReportId=69210 | Processed=69000 | Matched=68941 | NotFound=59
+2026-02-04 17:57:54,257 | INFO | Processed up to ReportId=70097 | Processed=69887 | Matched=69828 | NotFound=59
+2026-02-04 17:57:54,283 | INFO | Created output\year_ranges_14.csv with 4828 records
+2026-02-04 17:57:54,283 | INFO | ===== Extraction Completed =====
+2026-02-04 17:57:54,284 | INFO | Total processed : 69887
+2026-02-04 17:57:54,284 | INFO | Total matched   : 69828
+2026-02-04 17:57:54,284 | INFO | Total not found : 59
+2026-02-04 17:57:54,284 | INFO | Total files created : 14

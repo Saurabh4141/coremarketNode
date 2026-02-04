@@ -1,0 +1,182 @@
+04-02-2026 12:06:05 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 12:06:08 | INFO | node:internal/process/task_queues:105 | Blogs fetched successfully
+META:
+{
+  "limit": 10,
+  "offset": 0,
+  "category": null
+}
+----------------------------------------
+04-02-2026 12:08:45 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 12:08:48 | INFO | node:internal/process/task_queues:105 | Blogs fetched successfully
+META:
+{
+  "limit": 10,
+  "offset": 0,
+  "category": null
+}
+----------------------------------------
+04-02-2026 12:08:49 | INFO | node:internal/process/task_queues:105 | Blogs fetched successfully
+META:
+{
+  "limit": 10,
+  "offset": 0,
+  "category": null
+}
+----------------------------------------
+04-02-2026 12:16:28 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 12:16:42 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 12:16:47 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 12:17:11 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 12:17:19 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 12:17:26 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 12:17:34 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 12:17:36 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 12:17:38 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 12:46:43 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 12:46:44 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 12:51:29 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 12:53:45 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 12:54:25 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 12:56:30 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 13:56:55 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 13:56:58 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 13:57:04 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 13:57:09 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 13:57:13 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 13:57:23 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 13:58:55 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 14:00:37 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 14:00:40 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 14:00:46 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 14:00:49 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 14:00:53 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 14:00:55 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 14:00:57 | INFO | node:internal/process/task_queues:105 | Popular blogs fetched
+META:
+{
+  "limit": 3
+}
+----------------------------------------
+04-02-2026 14:00:58 | INFO | node:internal/process/task_queues:105 | Popular blogs fetched
+META:
+{
+  "limit": 3
+}
+----------------------------------------
+04-02-2026 14:01:05 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 14:01:18 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 14:01:25 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 14:12:17 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 14:12:20 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 14:12:23 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 14:12:27 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 14:12:36 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 14:12:38 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 14:13:07 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 14:14:13 | INFO | node:internal/process/task_queues:105 | Blog categories fetched
+META:
+{
+  "count": 0
+}
+----------------------------------------
+04-02-2026 15:13:56 | INFO | node:internal/process/task_queues:105 | Reports fetched with market metrics
+META:
+{
+  "industryId": null,
+  "limit": 20,
+  "offset": 0
+}
+----------------------------------------
+04-02-2026 15:21:49 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 15:22:10 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 15:23:06 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 15:23:32 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 15:23:37 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 15:24:01 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 15:24:07 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 15:24:09 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 15:25:04 | ERROR | file:///E:/core/backend/src/modules/reports/reports.controller.js:98 | Failed to fetch related reports
+META:
+{
+  "industryId": 1,
+  "excludeReportId": null,
+  "error": "mainDB is not defined"
+}
+----------------------------------------
+04-02-2026 15:26:11 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 15:26:16 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 15:26:18 | INFO | node:internal/process/task_queues:105 | Related reports fetched
+META:
+{
+  "industryId": 1,
+  "excludeReportId": null,
+  "count": 3
+}
+----------------------------------------
+04-02-2026 15:31:37 | INFO | node:internal/process/task_queues:105 | Popular blogs fetched
+META:
+{
+  "limit": 3
+}
+----------------------------------------
+04-02-2026 15:32:28 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 15:32:39 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 15:32:43 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 15:33:03 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------
+04-02-2026 15:33:05 | INFO | node:events:638 | Server started on port 5000
+----------------------------------------

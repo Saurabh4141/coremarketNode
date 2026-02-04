@@ -1,7 +1,8 @@
 import {
   fetchLatestReports,
   fetchTrendingReports,
-  fetchReports
+  fetchReports,
+  fetchRelatedReports
 } from "./reports.service.js";
 import { writeLog } from "../../utils/writeLog.js";
 import { sanitizeTitle } from "../../utils/sanitize.js";
@@ -79,6 +80,35 @@ export const getReports = async (req, res) => {
     res.status(500).json({
       success: false,
       message: "Failed to fetch reports",
+    });
+  }
+};
+
+export const getRelatedReports = async (req, res) => {
+  try {
+    const { industryId, excludeId } = req.query;
+
+    if (!industryId) {
+      return res.status(400).json({
+        success: false,
+        message: "industryId is required",
+      });
+    }
+
+    const relatedReports = await fetchRelatedReports({
+      industryId: Number(industryId),
+      excludeReportId: excludeId ? Number(excludeId) : null,
+      limit: 3,
+    });
+
+    res.json({
+      success: true,
+      data: relatedReports,
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Failed to fetch related reports",
     });
   }
 };
