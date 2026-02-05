@@ -1,0 +1,50 @@
+ALTER TABLE report_master
+ADD COLUMN SubIndustryId int(11) DEFAULT NULL AFTER IndustryId,
+ADD KEY idx_subindustry (SubIndustryId, IsActive),
+ADD CONSTRAINT fk_report_subindustry
+  FOREIGN KEY (SubIndustryId)
+  REFERENCES sub_industries_master (Id)
+  ON DELETE SET NULL;
+
+
+
+ALTER TABLE report_master
+ADD COLUMN seo_title VARCHAR(255) DEFAULT NULL,
+ADD COLUMN seo_description VARCHAR(300) DEFAULT NULL,
+ADD COLUMN sample_pdf_path VARCHAR(255) DEFAULT NULL,
+ADD COLUMN customization_available TINYINT(1) DEFAULT 0,
+ADD COLUMN currency CHAR(3) DEFAULT 'USD';
+
+
+ALTER TABLE report_master
+ADD COLUMN report_status ENUM('draft','published','archived') DEFAULT 'published',
+ADD COLUMN publish_at DATETIME DEFAULT NULL;
+
+
+ALTER TABLE report_master
+ADD COLUMN report_version VARCHAR(20) DEFAULT '2024',
+ADD COLUMN forecast_year_from VARCHAR(10) DEFAULT NULL,
+ADD COLUMN forecast_year_to VARCHAR(10) DEFAULT NULL;
+
+
+ALTER TABLE report_master
+ADD COLUMN canonical_url VARCHAR(255) DEFAULT NULL,
+ADD COLUMN noindex TINYINT(1) DEFAULT 0;
+
+
+
+ALTER TABLE report_master
+ADD COLUMN report_type ENUM('syndicated','custom','subscription') DEFAULT 'syndicated';
+
+
+
+ALTER TABLE report_desc_master
+ADD COLUMN faqs JSON DEFAULT NULL;
+
+
+ALTER TABLE report_desc_master
+ADD COLUMN key_players TEXT DEFAULT NULL;
+
+
+ALTER TABLE report_desc_master
+ADD COLUMN sample_pages TEXT DEFAULT NULL;
