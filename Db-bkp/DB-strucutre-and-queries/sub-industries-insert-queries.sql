@@ -1291,30 +1291,6 @@ VALUES
   1
 ),
 
--- 2️⃣ Beverages (P2)
-(
-  7,
-  'Beverages',
-  'Beverages Market Research',
-  'beverages',
-  'BEV',
-  'Beverages Market Size & Growth Outlook',
-  'Beverages market research covering non-alcoholic and alcoholic beverages.',
-  '/images/sub-industries/beverages.webp',
-  'cup',
-  '#3949AB',
-  'Soft drinks, juices, alcoholic and functional beverages',
-  'USD 1.8 Trillion',
-  '4.9%',
-  'PepsiCo, Coca-Cola, AB InBev',
-  1800000000000,
-  4.9,
-  'The beverages market is shaped by brand competition, premiumization, health trends, and evolving consumer preferences.',
-  2,
-  b'1',
-  '127.0.0.1',
-  1
-),
 
 -- 3️⃣ Personal Care & Cosmetics (P3)
 (

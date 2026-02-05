@@ -4,7 +4,7 @@ CREATE TABLE `industries_master` (
   /* Core identity */
   `Name` varchar(512) NOT NULL,
   `Rephrased_Name` varchar(125) DEFAULT NULL,
-  `Path` varchar(100) NOT NULL,              -- SEO slug (/industry/{path})
+  `Slug` varchar(100) NOT NULL,              -- SEO slug (/industry/{path})
   `Initial` char(3) DEFAULT NULL,             -- UI shorthand (NOT unique)
 
   /* SEO control */
